@@ -1,7 +1,7 @@
 {
     "name": "Flap Display Extension",
     "desc": "A software flap display. Remote controllable",
-    "author": "Florian Wesch <fw@info-beamer.com>, Andy Fischer <info@Andyland.info>",
+    "author": "Florian Wesch, Andy Fischer <info@Andyland.info>",
     "repository": "https://github.com/Andymann/package-flap-display",
     "platforms": ["pi/v6", "pi/v7", "pi/v8"]
 }
