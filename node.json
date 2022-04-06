@@ -21,7 +21,9 @@
         "type": "select",
         "options": [
             ["classic", "Classic"],
-            ["spanish1", "Spanish"]
+            ["spanish1", "Spanish"],
+			["numbers", "Numbers only"]
+
         ],
         "default": "classic"
     }, {
