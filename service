@@ -42,10 +42,10 @@ def main():
         con = ib.node("display/atomic").io(raw=True)
         # con.write("Hello\nWorld\n%d\n" % time.time())
         # con.write("Hello\nWorld\n%s\n" % (randStr(N=6)))
-        # con.write("%s\n\n%s\n" % (randStr(N=6), randStr(N=6)))
+        con.write("%s\n\n%s\n" % (randStr(N=6), randStr(N=6)))
         # time = datetime.now().strftime("%H:%M:%S")
         # con.write("time:\n" % datetime.now().strftime("%H:%M:%S"))
-        con.write("Hello\nWorld\n%s\n" % datetime.now().strftime("%H:%M:%S"))
+        # con.write("Hello\nWorld\n%s\n" % datetime.now().strftime("%H:%M:%S"))
 
         con.close()
 
