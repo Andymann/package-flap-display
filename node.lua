@@ -18,6 +18,15 @@ local styles = {
         height = 1950,
         steps = 5,
     },
+	numbers = {
+        charset = ' 0123456789',
+        texture = 'style-classic.png',
+        rows = 13,
+        cols = 20,
+        width = 2000,
+        height = 1950,
+        steps = 5,
+    },
     spanish1 = {
         charset = ' abcdefghijklmnopqrstuvwxyz0123456789ñáéíóú&@#?!/()\"\':=+-…,.',
         texture = 'style-spanish1.png',
