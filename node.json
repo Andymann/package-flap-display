@@ -22,7 +22,7 @@
         "options": [
             ["classic", "Classic"],
             ["spanish1", "Spanish"],
-			["numbers", "Numbers only"]
+			["numbers1", "Numbers"]
 
         ],
         "default": "classic"

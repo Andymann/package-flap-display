@@ -18,7 +18,7 @@ local styles = {
         height = 1950,
         steps = 5,
     },
-	numbers = {
+	numbers1 = {
         charset = ' 0123456789',
         texture = 'style-classic.png',
         rows = 13,
