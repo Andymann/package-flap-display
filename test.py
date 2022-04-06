@@ -16,8 +16,7 @@ def randStr(chars=string.ascii_uppercase + string.digits, N=10):
 
 def main():
     while 1:
-
-        print("Hello\nWorld\n%s\n" % (randStr(N=7)))
+        print("%s\n\n%s\n" % (randStr(N=7), randStr(N=7)))
         time.sleep(1)
 
 
