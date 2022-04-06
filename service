@@ -48,7 +48,6 @@ def main():
         # con.write("Hello\nWorld\n%s\n" % datetime.now().strftime("%H:%M:%S"))
 
         con.close()
-
         time.sleep(6)
 
 
