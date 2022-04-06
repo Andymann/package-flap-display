@@ -37,7 +37,7 @@ def main():
         #con.write("Hello\nWorld\n%d\n" % time.time())
 
         time = datetime.now().strftime("%H:%M:%S")
-        con.write("time:", time)
+        con.write("time:" % time)
 
         con.close()
 
