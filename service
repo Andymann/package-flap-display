@@ -6,6 +6,12 @@
 import time
 from ibquery import InfoBeamerQuery
 from datetime import datetime
+import random
+import string
+
+
+def randStr(chars=string.ascii_uppercase + string.digits, N=10):
+    return ''.join(random.choice(chars) for _ in range(N))
 
 
 def main():
@@ -34,7 +40,8 @@ def main():
         # Example for atommic mode: Set 3 lines, the last one being
         # the current unix timestamp.
         con = ib.node("display/atomic").io(raw=True)
-        con.write("Hello\nWorld\n%d\n" % time.time())
+        # con.write("Hello\nWorld\n%d\n" % time.time())
+        con.write("Hello\nWorld\n%d\n" % (randStr(N=7)))
 
         # time = datetime.now().strftime("%H:%M:%S")
         # con.write("time:\n" % datetime.now().strftime("%H:%M:%S"))
