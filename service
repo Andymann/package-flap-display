@@ -41,15 +41,15 @@ def main():
         # the current unix timestamp.
         con = ib.node("display/atomic").io(raw=True)
         # con.write("Hello\nWorld\n%d\n" % time.time())
-        con.write("Hello\nWorld\n%s\n" % (randStr(N=7)))
-
+        # con.write("Hello\nWorld\n%s\n" % (randStr(N=6)))
+        con.write(randStr(N=6))
         # time = datetime.now().strftime("%H:%M:%S")
         # con.write("time:\n" % datetime.now().strftime("%H:%M:%S"))
         # con.write("Hello\nWorld\n%d\n" % datetime.now().strftime("%H:%M:%S"))
 
         con.close()
 
-        time.sleep(1)
+        time.sleep(3)
 
 
 if __name__ == "__main__":
