@@ -7,7 +7,7 @@
         "name": "size",
         "type": "select",
         "options": [
-			[[8,  4], "8 × 4 cells"],
+			[[6,  4], "6 × 4 cells"],
 			[[12,  4], "12 × 4 cells"],
             [[16,  9], "16 × 9 cells"],
             [[25, 10], "25 × 10 cells"],
